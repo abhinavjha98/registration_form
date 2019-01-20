@@ -137,8 +137,8 @@ body{
 	pointer-events: none;
 	transition: .10s;
 }
-.login-box .inputTex input:focus ~ label,
-.login-box .inputTex input:valid ~ label{
+.login-box .inputTex input:focus ,
+.login-box .inputTex input:valid {
 	top: -18px;
 	left: 0;
 	color: #03a9f4;
